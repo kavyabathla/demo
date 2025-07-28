@@ -1,0 +1,24 @@
+h1{
+            text-align: center;
+            color: whitesmoke;
+            justify-content: center;
+            font-family: Leckerli One, cursive;
+            background-color:#F37A}
+            nav {
+            display: flex;
+                justify-content: space-evenly;
+                justify-items:row;
+               margin-top: -10px;
+              }
+              .nav-container::before {
+                content:url"(images.jpeg);";
+              }
+              .nav-bg {
+    background-image: url('images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-resolution: auto;
+    image-rendering: auto
+    ;
+}
